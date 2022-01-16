@@ -26,7 +26,11 @@ const TwoOfaKind = () => {
 		}
 	}*/
 
-	function play() {}
+	/*for (let z = 0; z < 30; z++) {
+		document.getElementsByTagName("button")[z].innerHTML = "runnning " + z;
+	}*/
+
+	//function play() {}
 
 	return (
 		<>
@@ -130,12 +134,15 @@ const TwoOfaKind = () => {
 						29
 					</button>
 					<button className="col-1 card m-2" id="pos6-5">
-						20
+						30
 					</button>
 				</div>
 			</div>
 		</>
+
+		
 	);
+	
 };
 
 export default TwoOfaKind;
